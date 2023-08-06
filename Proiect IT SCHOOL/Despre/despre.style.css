@@ -1,0 +1,160 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    
+    font-family: 'Noto Sans Cypro Minoan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+h1 {
+    color: white;
+    font-size: 55px;
+}
+
+
+
+
+
+.Titlu-pad-despre {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.trainers{
+background-color: white;
+
+}
+
+
+
+.row {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+
+    max-width: 1200px;
+    margin: auto;
+   
+   
+}
+
+.card-img-top{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: -70px;
+}
+
+
+
+.card1,
+.card2,
+.card3,
+.card4 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+
+ padding: 16px;
+
+ min-height: 350px;
+
+
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ 
+ margin-bottom: 40px;
+ margin-right: calc(100%-20px);
+ margin:80px 10px 40px 10px;
+
+}
+
+
+.card2 {
+    padding-bottom: 90px;
+}
+
+
+.card3{
+    padding-bottom: 140px;
+}
+
+.card4{
+    padding-bottom: 140px;
+}
+
+
+
+
+
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+    font-size: var(--fs-large);
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(20, 30, 76, 0.9);
+    border-radius: 5px;
+    padding: var(--spacing-tiny) 0;
+    margin-bottom:10px;
+    margin-top: -25px;
+    isolation: isolate;
+    z-index: 1;
+    color: #fbb44c;
+
+}
+
+
+@media screen and (max-width:993px) {
+
+ .row  {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+ 
+ 
+
+}
+}
+
+
+@media screen and (max-width:768px) {
+    
+   .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: none
+    ;
+   }
+    .Titlu-pad-despre>h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .row  {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    
+}

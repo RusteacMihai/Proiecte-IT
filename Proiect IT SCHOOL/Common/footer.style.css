@@ -1,0 +1,23 @@
+body {
+
+    font-family: "Poppins", sans-serif;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #141e4c;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 12px;
+    color: white;
+}
